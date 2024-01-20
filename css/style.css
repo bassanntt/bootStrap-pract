@@ -1,0 +1,742 @@
+:root{
+   
+}
+#navbar{
+    
+font-family: 'Montserrat', sans-serif;
+
+}
+#nav-bar .active{
+    color: #fff;
+}
+#nav-bar .navbar .nav-item .nav-link{
+    color:#fff;
+    overflow: hidden;
+    position: relative;
+}
+.home{
+    background-image: url('../imgs/bg.jpg');
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+  height: 100%;
+}
+/* to color nav bar navs */
+.color-me a{
+    color: white !important;
+}
+/* inmation */
+.home span::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
+}
+@keyframes typing{
+    0%{
+        content: "D|";
+    }
+    2%{
+        content: " De|";
+    }
+    4%{
+        content: "Dev|";
+    }
+    6%{
+        content: "Deve|";
+    }
+    8%{
+        content: "Devel|";
+    }
+    10%{
+        content: "Develo|";
+    }
+    12%{
+        content: "Develop|";
+    }
+    14%{
+        content: " Developer|";
+    }
+    16%{
+        content: "Develope|";
+    }
+    18%{
+        content: "Develop|";
+    }
+    20%{
+        content: "Develo|";
+    }
+    22%{
+        content: "Devel|";
+    }
+    24%{
+        content: "Deve|";
+    }
+    26%{
+        content: "Dev|";
+    }
+    28%{
+        content: "De|";
+    }
+    30%{
+        content: "D|";
+    }
+    32%{
+        content: "D|";
+    }
+    34%{
+        content: "De|";
+    }
+    36%{
+        content: "Des|";
+    }
+    38%{
+        content: "Desi|";
+    }
+    40%{
+        content: "Design|";
+    }
+    42%{
+        content: "Designe|";
+    }
+    44%{
+        content: "Designer|";
+    }
+    46%{
+        content: " |";
+    }
+    48%{
+        content: "L|";
+    }
+    50%{
+        content: "La|";
+    }
+    52%{
+        content: "Lar|";
+    }
+    54%{
+        content: "Larr|";
+    }
+    56%{
+        content: "Larry|";
+    }
+    58%{
+        content: "Larry |";
+    }
+    60%{
+        content: "Larry D|";
+    }
+    62%{
+        content: "Larry Da|";
+    }
+    63%{
+        content: "Larry Dan|";
+    }
+    65%{
+        content: "Larry Dani|";
+    }
+    68%{
+        content: "Larry Danie|";
+    }
+    70%{
+        content: "Larry Daniel|";
+    }
+    73%{
+        content: "Larry Daniels|";
+    }
+    75%{
+        content: "Larry Daniel|";
+    }
+    77%{
+        content: "Larry Danie|";
+
+    }
+    80%{
+        content: "Larry Dani|";
+    }
+    82%{
+        content: "Larry Dan|";
+    }
+    83%{
+        content: "Larry Da|";
+    }
+    84%{
+        content: "Larry D|";
+    }
+    85%{
+        content: "Larry |";
+    }
+    86%{
+        content: "Larry|";
+    }
+    88%{
+        content: "Larr|";
+    }
+    90%{
+        content: "Lar|";
+    }
+    93%{
+        content: "Lar|";
+    }
+    96%{
+        content: "La|";
+    }
+    98%{
+        content: "L|";
+    }
+    100%{
+        content: " |";
+    }
+}
+        
+
+.home ul li {
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 40px;
+  height: 40px;
+}
+.home ul li i{
+    margin: auto;
+    text-align: center;
+    padding-top:12px ;
+}
+#about .imghero::after{
+
+        content: "";
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        left: -30px;
+        bottom: -30px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        
+        z-index: -1;
+}
+.content h2{
+  
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+
+    z-index: 4;
+    padding-top: 40px;
+
+    
+}
+
+.content p{
+  
+ 
+    font-size: 15px;
+    color: #748182;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    size: 30px;
+    transition: all 0.5s;
+}
+.btn2{
+    transition: all 0.5s;
+}
+.btn1:hover{
+ color: black;
+    background-color: white;
+
+}
+.btn2:hover{
+    color: white;
+    background-color: black;
+}
+
+#Services{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 900px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+ 
+#Services .item{
+   
+        padding: 50px 20px;
+        background: #fff;
+        -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        border-radius: 5px;
+        padding-top: 50px;
+
+}
+#Services .item .icon i{
+
+ margin-bottom: 30px ;
+
+ 
+
+}
+#Services .item .icon{
+    border-radius: 50%;
+  
+    font-size: 30px;
+    margin-bottom: 20px;
+   
+   
+    background: #f4f4f4;
+    border-radius: 50%;
+   
+    transition: all 0.5s;
+    padding: 15px;
+}
+#Services .item:hover .icon {
+    background: #1c1c1c;
+    color: #eee;
+}
+/* for each h3 */
+
+ h3{
+
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    padding-top: 40px;
+
+
+}
+h3::after{ 
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url('../imgs/dots.png');
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1; 
+
+}
+/* portifilo section */
+
+
+#Works .serves-navs .nav .nav-item .nav-link {
+  
+   
+  
+    margin: 0 15px;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+/* هوفر الصوره الي في بورتفليو اوفر لاي */
+/* portfolio .item-img-overlay {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); */
+    #Works .imglayer{
+    
+        position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.80);
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    margin: auto;
+    opacity: 0;
+    }
+    #Works .portimg{
+        position: relative;
+    }
+    #Works .portimg:hover .imglayer{
+        opacity: 1;
+        
+        margin: auto;
+        transform: translateY(0);
+}
+    /transform: translateY(0);*  */
+    #Portfolio .portimg:hover i{
+        
+    }
+    
+    #Works .imglayer .over-content{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        font-family: 'Montserrat', sans-serif;
+        
+      
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+     }
+     #Works i{
+        color: white;
+        border-radius: 50%;
+        background-color:black;
+        padding: 10px 10px;
+        font-size: 10px;
+        border: 1px solid #111;
+       
+     }
+     #Works i:hover{
+        color: black;
+        background-color:transparent;
+     }
+     /*END OF PORTIFLE SECTION  */
+     #Clients{
+        background-color: #f7f7f7;
+        width: 100%;
+        height: 500px;
+        padding-top: 50px;
+        margin-top: 100px;
+    }
+    #Clients img{
+        width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto 15px;
+     }
+    
+#Clients span{
+       font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+     }
+     /* .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #d6d6d6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 0.2s ease;
+    border-radius: 30px; */
+   
+       
+        
+    
+    #Clients p{
+        word-spacing: 1px;
+text-align: center;
+
+    line-height: 1.6;
+    
+    font-size: 15px;
+    color: #748182;
+    }
+    /*to remove blue color  */
+    #Works .nav-link.active {
+background-color: transparent !important;
+
+text-decoration: underline;
+    }
+    #number .cap h4{
+     font-size:30px;
+    margin-bottom: 15px;
+    font-weight: 900;
+  
+    }
+    .icon i{
+        font-size: 30px;
+    }
+    #number .cap p{
+        
+    color: #748182;
+    font-weight: 600;
+    }
+    #team{
+        background-color: #f7f7f7;
+        width: 100%;
+        height: 800px;
+        padding-top: 50px;
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    /* card body back ground background-color: rgba(52, 52, 52,.8); */
+    #team .card-body{
+        background-color: rgba(52, 52, 52,.8);
+        text-align: center;
+       color: #fff;
+       text-align: center;
+      
+       font-family: 'Montserrat', sans-serif;
+
+    }
+    #team .card-body h4{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    #team .card-body h5{
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+    
+    #Team i{
+        color: white;
+        border-radius: 50%;
+        background-color:black;
+        padding: 10px 10px;
+      
+        border: 1px solid #111;
+        font-size: 20px;
+   
+    text-align: center;
+       
+     }
+     #Team i:hover{
+        color: black;
+        background-color:transparent;
+     }
+     #Team .social{
+      
+        background-color: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        text-align: center;
+        inset: 5px;
+        opacity: 0;
+        transition: 0.5s;
+        transform: rotateY(180deg) scale(0.5, 0.5);
+        height: 76%;
+        overflow: hidden;
+      
+     }
+   #Team .card:hover   .social{
+        cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+     #Team .card-img:hover img{
+        transform: scale(1.2);
+        overflow: hidden;
+        
+     }
+#Team .card:hover  img{
+
+}
+#Team .card img{
+    transition: all 0.4s ease 0s;
+    overflow: hidden;
+}
+#Team .card {
+    overflow: hidden;
+}
+#Team ul {
+    text-align: center;
+    position: relative;
+    top: 175px;
+}
+#Team .card-img{
+    overflow: hidden;
+}
+#Contact span{
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 20px;
+}
+#Contact h6{
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+#Contact .iicon:hover{
+    background: #1c1c1c;
+    color: #eee;
+}
+#Contact p{
+width: 100%;
+text-align: center;
+padding-bottom:50px ;
+    font-size: 15px;
+    color: #748182;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    
+
+}
+#Contact input{
+    
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+    box-shadow: #1c1c1c;
+    box-shadow: ;
+   
+}
+#contact{
+    height: 900px;
+}
+#Contact textarea{
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+    width: 80%;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+   margin: auto;
+    background: #f4f4f4;
+   display: flex;
+   justify-content: center;
+   
+}
+#Contact .btnn{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: start;
+    border-radius: 8px;
+    background-color: #111;
+    color: fff
+    ;
+    font-size: 13px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    order: 1px solid #1c1c1c;
+}
+.bttn{
+    margin-left: 22px;
+ 
+   
+}
+
+#Contact .btnn:hover {
+    color: black;
+    background-color: white;
+}
+
+#footer{
+    height: 80px;
+    text-align: center;
+    background: #1c1c1c;
+    background: #1c1c1c;
+    padding: 30px;
+}
+#footer p{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+ margin: auto;
+    font-size: 15px;
+    color: #748182;
+  
+}
+/* progress section */
+#about .skills .progress{
+    position: relative;
+}
+#about .skills .progress h6{
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    padding-left: 10px;
+   
+    z-index: 2;
+}
+#about .skills .progress span{
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    right: 150px;
+    padding-left: 10px;
+   
+    z-index: 2;
+}
+
+
+/* clintes sectionss */
+
+    #Clients {
+        background-color: #f7f7f7;
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+        margin-top: 100px;
+    }
+
+
+#clients .carousel-item .img{
+    width: 8%;
+    margin: auto;
+}
+
+
+#clients .carousel-indicators button{
+    color: #748182 !important;
+    width: 10px;
+    height: 10px;
+    margin: auto 5px;
+    border-radius: 50%;
+}
+
+#clients .carousel-item .dis h6{
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#clients .carousel-item .dis span{
+    color: #748182;
+    font-size: 12px;
+    font-weight: 600;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    color: #748182;
+    background-color: #748182;
+}
